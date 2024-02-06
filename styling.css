@@ -1,0 +1,46 @@
+body{
+    text-align: center;
+}
+.button-def-yes,
+.button-no,
+.button-yes{
+    border-radius: 8%;
+    transition-duration: 0.3s;
+    margin: 10px;
+    color: #efefef;
+    background-color: seagreen;
+}
+.button-def-yes:hover,
+.button-yes:hover{
+    cursor: pointer;
+}
+.button-no:hover{
+    opacity: 0;
+}
+.button-def-yes:hover,
+.button-yes:hover{
+    transform: scale(1.1);
+}
+.button-yes{
+    height: 50px;
+    width: 100px;
+   
+}
+.button-def-yes{
+    height: 80px;
+    width: 200px;
+}
+.button-no{
+    height: 20px;
+    width: 40px;
+}
+h2{
+    color: seagreen;
+}
+a{
+    text-decoration: none;
+}
+#love-doggo{
+    height: 200px;
+    width: auto;
+}
